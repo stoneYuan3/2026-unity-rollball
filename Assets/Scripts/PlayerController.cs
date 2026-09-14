@@ -17,4 +17,11 @@ public class NewMonoBehaviourScript : MonoBehaviour
     {
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
     }
+    void OnTriggerEnter(Collider other) 
+    {
+       if (other.gameObject.CompareTag("PickUp")) 
+       {
+           other.gameObject.SetActive(false);
+       }
+    }    
 }
