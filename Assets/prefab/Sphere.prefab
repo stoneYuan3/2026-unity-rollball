@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 3088824948540240396}
   - component: {fileID: 1208146349531713008}
   - component: {fileID: 8588484172006976161}
-  - component: {fileID: 8568856365284329494}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -113,17 +112,3 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &8568856365284329494
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7699913991149965555}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2f45cf6c51edc84880b30848c4bd63d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  speed: 5
-  target: {fileID: 0}
